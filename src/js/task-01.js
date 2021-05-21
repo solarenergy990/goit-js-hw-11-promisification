@@ -1,7 +1,7 @@
 const delay = (ms) => {
   // Твой код
   let time = ms;
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve((time = ms));
     }, ms);
